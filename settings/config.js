@@ -1,6 +1,6 @@
 module.exports = {
-    TOKEN: "",
-    PREFIX: "",
+    TOKEN: "your token",
+    PREFIX: "prefix",
     embed: {
         color: "#220f80",
         wrongcolor: "#8a0808",
@@ -8,7 +8,7 @@ module.exports = {
     },
     slash: {
         global: true,
-        guildID: "924707637659062373",
+        guildID: "server id",
     },
     options: {
         embedFooter: true,
