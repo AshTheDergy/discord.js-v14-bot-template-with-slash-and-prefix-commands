@@ -4,7 +4,7 @@ module.exports = {
     embed: {
         color: "#220f80",
         wrongcolor: "#8a0808",
-        footertext: "Coded by AshTheDergy | FurDerg Productions"
+        footertext: "Coded by AshTheDergy | FurDerg Productions" //you can modify  this
     },
     slash: {
         global: true,
