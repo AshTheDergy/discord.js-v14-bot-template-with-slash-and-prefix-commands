@@ -8,15 +8,6 @@ const provider = require("@joshdb/json");
  */
 module.exports = async (client) => {
 
-    client.accounts = new Josh({
-        name: "accounts",
-        provider: provider,
-        providerOptions: {
-            collection: "accounts",
-            dbName: client.user.username.replace(" ", ""),
-        },
-    });
-
     client.server = new Josh({
         name: "server",
         provider: provider,
